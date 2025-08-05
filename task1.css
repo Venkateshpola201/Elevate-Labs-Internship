@@ -1,4 +1,4 @@
-/* Reset & Base */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +8,6 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +34,6 @@ header {
   color: #00bcd4;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
@@ -80,7 +77,6 @@ footer {
   color: #00bcd4;
 }
 
-/* Responsive Nav */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -91,3 +87,4 @@ footer {
     margin-top: 10px;
   }
 }
+
